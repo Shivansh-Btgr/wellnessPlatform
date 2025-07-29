@@ -1,0 +1,39 @@
+# .gitignore for the root and frontend
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+.venv
+
+# Ignore SQLite DBs
+*.sqlite3
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore node_modules and build output
+frontend/node_modules/
+frontend/dist/
+
+# Ignore log files
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage and test output
+coverage/
+*.cover
+
+# Ignore local config
+*.local
+
+# Ignore frontend lock files (optional, if you want to commit lock files, remove these)
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
+frontend/yarn.lock
